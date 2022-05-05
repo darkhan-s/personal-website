@@ -234,4 +234,43 @@ paginate = 3
         weight = 2
         url = "posts/"
 
+  [languages.kz]
+  
+    languageName = "Kazakh"
+
+    [languages.kz.menu]
+
+      [[languages.kz.menu.main]]
+        name = "Мен туралы"
+        weight = 1
+        url = "https://darkhan-s.github.io/personal-website"
+        #url = "/"
+
+      [[languages.ru.menu.main]]
+        name = "Posts"
+        weight = 2
+        url = "posts/"
+
+  [languages.fi]
+  
+    languageName = "Finnish"
+
+    [languages.fi.menu]
+
+      [[languages.fi.menu.main]]
+        name = "Мен туралы"
+        weight = 1
+        url = "https://darkhan-s.github.io/personal-website"
+        #url = "/"
+
+      [[languages.fi.menu.main]]
+        name = "Posts"
+        weight = 2
+        url = "posts/"
+
+        
+        
+
+        
+
         
