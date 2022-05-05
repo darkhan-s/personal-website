@@ -1,7 +1,7 @@
 baseURL = "https://darkhan-s.github.io/personal-website"
 #baseURL = "/"
 languageCode = "en"
-title = "Introduction to DevOps"
+title = "Saidnassimov Darkhan"
 theme = "color-your-world"
 
 # Used only in the RSS file
@@ -41,7 +41,7 @@ paginate = 3
 [params]
   
   # Site description
-  description = "DevOps Project"
+  description = "Summary"
   
   # Author
   author      = "Saidnassimov Darkhan"
@@ -213,9 +213,9 @@ paginate = 3
         #url = "/"
 
       [[languages.en.menu.main]]
-        name = "Who"
+        name = "Contacts"
         weight = 2
-        url = "who/"
+        url = "contacts/"
 
       [[languages.en.menu.main]]
         name = "Posts"
