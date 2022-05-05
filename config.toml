@@ -217,5 +217,21 @@ paginate = 3
         weight = 2
         url = "posts/"
       
+  [languages.ru]
+  
+    languageName = "Russian"
+
+    [languages.ru.menu]
+
+      [[languages.ru.menu.main]]
+        name = "Обо мне"
+        weight = 1
+        url = "https://darkhan-s.github.io/personal-website"
+        #url = "/"
+
+      [[languages.ru.menu.main]]
+        name = "Posts"
+        weight = 2
+        url = "posts/"
 
         
