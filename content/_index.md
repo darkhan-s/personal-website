@@ -1,12 +1,12 @@
 ---
 title                 : "About me"
 disableTitleSeparator : true
-cover           : "me.jpg"
-coverAlt        : "My picture"
 sitemapExclude  : true
 ---
 
-My name is Saidnassimov Darkhan and I am a second year Master's student in Automation and Electrical Engineering at Aalto University. If you want to know more or contact me, scroll down to [contact info](#Contact-me).
+My name is Saidnassimov Darkhan and I am a second year Master's student in Automation and Electrical Engineering at Aalto University. If you want to know more or contact me, scroll down to [contact info](#contact-me).
+
+![My picture](./img/me.jpg)
 
 ## Summary
 
@@ -20,25 +20,25 @@ Currently I am employed as a Thesis worker at Metso Outotec,  and previously was
 
 My tech skills include, but not limited to:
 ---|:---:
-Siemens Step7/TIA/CodeSYS/nxtStudio|:thumbsup:
-C# .NET, WPF (Visual Studio)|:thumbsup:
-Arduino(C++)|:thumbsup:
-SQL (MS SQL & MySQL)|:thumbsup:
-Wonderware InTouch HMI|:thumbsup:
-MATLAB & Simulink, COMSOL|:thumbsup:
-Python (numpy, pandas, sklearn, matplotlib, pytorch)|:thumbsup:
-Computer Vision (YOLOv3)|:thumbsup:
-HTML & CSS, REST API|:thumbsup:
-XML, JSON|:thumbsup:
-LabVIEW|:thumbsup:
-ETS5(KNX)|:thumbsup:
-Linux (Ubuntu)|:thumbsup:
-TCP/IP/Firewall|:thumbsup:
-Azure Portal, VMware|:thumbsup:
-Jira|:thumbsup:
-Tortoise SVN, Git/Github|:thumbsup:
-ROS|:thumbsup:
-MS Office|:thumbsup:
+Siemens Step7/TIA/CodeSYS/nxtStudio|:white_check_mark:
+C# .NET, WPF (Visual Studio)|:white_check_mark:
+Arduino(C++)|:white_check_mark:
+SQL (MS SQL & MySQL)|:white_check_mark:
+Wonderware InTouch HMI|:white_check_mark:
+MATLAB & Simulink, COMSOL|:white_check_mark:
+Python (numpy, pandas, sklearn, matplotlib, pytorch)|:white_check_mark:
+Computer Vision (YOLOv3)|:white_check_mark:
+HTML & CSS, REST API|:white_check_mark:
+XML, JSON|:white_check_mark:
+LabVIEW|:white_check_mark:
+ETS5(KNX)|:white_check_mark:
+Linux (Ubuntu)|:white_check_mark:
+TCP/IP/Firewall|:white_check_mark:
+Azure Portal, VMware|:white_check_mark:
+Jira|:white_check_mark:
+Tortoise SVN, Git/Github|:white_check_mark:
+ROS|:white_check_mark:
+MS Office|:white_check_mark:
 
 ## Education
 Sep 2020 - Sept 2022 
@@ -60,5 +60,4 @@ For more information on my background or work experience, please check my Linked
 
 For any other matters, send me an email at <darkhan.saidnassimov@gmail.com>
 
-## Publications
 [^1]: [Master's thesis (in development)](https://github.com/darkhan-s/master-thesis-equipment-detection)
