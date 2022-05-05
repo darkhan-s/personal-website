@@ -297,13 +297,8 @@ paginate = 3
         #url = "/"
 
       [[languages.en.menu.main]]
-        name = "Contacts"
-        weight = 2
-        url = "contacts/"
-
-      [[languages.en.menu.main]]
         name = "Posts"
-        weight = 3
+        weight = 2
         url = "posts/"
       
 ```
