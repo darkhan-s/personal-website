@@ -1,0 +1,141 @@
+<!doctype html><html lang=en data-mode=dark>
+<head prefix="og: http://ogp.me/ns#">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=generator content="Hugo 0.89.4">
+<meta name=theme content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
+<title>DevOps</title>
+<meta name=author content="Saidnassimov Darkhan">
+<meta name=description content="DevOps Project">
+<meta name=robots content="index follow">
+<meta property="og:site_name" content="Introduction to DevOps">
+<meta property="og:title" content="DevOps">
+<meta property="og:description" content="DevOps Project">
+<meta property="og:url" content="https://darkhan-s.github.io/personal-website/">
+<meta property="og:type" content="website">
+<link rel=alternate type=application/rss+xml href=https://darkhan-s.github.io/personal-website/index.xml title="Introduction to DevOps">
+<meta name=theme-color content="#222">
+<meta name=apple-mobile-web-app-capable content="yes">
+<meta name=apple-mobile-web-app-status-bar-style content="default">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","url":"https:\/\/darkhan-s.github.io\/personal-website","inLanguage":"en","name":"Introduction to DevOps","description":"DevOps Project","publisher":"Saidnassimov Darkhan"}</script>
+<link rel=stylesheet href=https://darkhan-s.github.io/personal-website/css/main.min.8e05f798b394986601b0549619b019d4fb9158b099e78d9b0070ef59a3ef192e.css integrity="sha256-jgX3mLOUmGYBsFSWGbAZ1PuRWLCZ542bAHDvWaPvGS4=" crossorigin=anonymous>
+<noscript>
+<meta name=theme-color content="#1dbc91">
+<link rel=stylesheet href=https://darkhan-s.github.io/personal-website/css/noscript.min.3f3b95436b19eaeb9223fb12c0b86737d53ee0a47fdba271a886c244bc03975c.css integrity="sha256-PzuVQ2sZ6uuSI/sSwLhnN9U+4KR/26JxqIbCRLwDl1w=" crossorigin=anonymous>
+</noscript>
+<link rel=preload href=/personal-website/fonts/open-sans-v17-latin-700.woff2 as=font crossorigin=anonymous>
+<link rel=preload href=/personal-website/fonts/open-sans-v17-latin-italic.woff2 as=font crossorigin=anonymous>
+<link rel=preload href=/personal-website/fonts/open-sans-v17-latin-regular.woff2 as=font crossorigin=anonymous>
+<link rel=preload href=/personal-website/fonts/oswald-v29-latin-700.woff2 as=font crossorigin=anonymous>
+<link rel=me href=https://github.com/darkhan-s>
+<link rel=me href=https://www.linkedin.com/in/dsaidnassimov>
+<script src=https://darkhan-s.github.io/personal-website/js/main.min.00d339d5aeb733dd5a83c4a3e1d10bd01f289901161411588270336b492cdbd2.js integrity="sha256-ANM51a63M91ag8Sj4dEL0B8omQEWFBFYgnAza0ks29I=" crossorigin=anonymous></script>
+</head>
+<body>
+<header>
+<a href=/personal-website>Introduction to DevOps</a>
+<nav aria-label="Main menu.">
+<ul>
+<li>
+<a class=btn href=/personal-website>Landing page</a>
+</li>
+<li>
+<a class=btn href=/personal-website/who/>Who</a>
+</li>
+<li>
+<a class=btn href=/personal-website/posts/>Posts</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class=filler>
+<main class=index>
+<article>
+<header>
+<h1>DevOps</h1>
+</header>
+<p>My name is Saidnassimov Darkhan and I am a second year Master&rsquo;s student in Automation and Electrical Engineering at Aalto University. This is the website for the &ldquo;Introduction to DevOps&rdquo; course final project. <sup id=fnref:1><a href=#fn:1 class=footnote-ref title="See footnotes." role=doc-noteref>1</a></sup> The project utilizes Hugo to build a static website using markdown files and Github Actions to automate deployment. To know more about the project goals and methods, check the following <a href=#this-project-explained>chapter</a>. To hear more about why I chose to study DevOps, check out <a href=posts/whydevops>why I am interested in DevOps</a> or from the navigation panel. If you want to know more about me or to contact me, check out a page <a href=who/>about me</a>.</p>
+<h2 id=what-is-devops><a class=anchor href=#what-is-devops title="Anchor for: What is DevOps."><svg aria-hidden="true"><use xlink:href="#hashtag"/></svg></a> What is DevOps</h2>
+<blockquote>
+<p><em>&ldquo;DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market."</em></p>
+<p><strong>— Amazon</strong><sup id=fnref:2><a href=#fn:2 class=footnote-ref title="See footnotes." role=doc-noteref>2</a></sup></p>
+</blockquote>
+<h2 id=this-project-explained><a class=anchor href=#this-project-explained title="Anchor for: This project explained."><svg aria-hidden="true"><use xlink:href="#hashtag"/></svg></a> This project explained</h2>
+<p>The goal of the project is to create a personal website. Instead of using the built-in website generator in GitHub Pages, we have to use a third-party tool: Hugo, a framework for building static websites that takes Markdown documents as input and produces HTML files as output. We also need to configure a continuous delivery pipeline through GitHub Actions to trigger a build and (if that is successful) publish the site on GitHub Pages. The workflow file implemented can be found at the <a href=posts/codebase/>Codebase</a></p>
+<p>For the project, we must use the GitHub repository that needs to be created through the form on A+. The repository is created under Aalto organization owned on GitHub: it is private and the course staff has access to it.</p>
+<p>Two branches in the git repository are required for this project: the master branch for the source (Markdown) files used by Hugo, and the gh-pages branch to publish the site. We must build and deploy the website on GitHub Pages through GitHub Actions. It is not enough to build and deploy the site some other way (for instance, manually from your local machine) to fulfill the project requirements.</p>
+<section class=scroll tabindex=0> <table>
+<thead>
+<tr>
+<th>Requirements list</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Website is generated by Hugo</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Deployment utilizes Github Actions</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Deployment is done on gh-pages branch</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>3 pages minimum</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Landing page with 100 words starting with DevOps</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Links at the landing page</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Static page at /who with 100 words</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>An image with 250px minimum</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Blog post with &ldquo;Why..DevOps&rdquo; in heading</td>
+<td style=text-align:center>👍</td>
+</tr>
+<tr>
+<td>Unordered list with 250-500 words</td>
+<td style=text-align:center>👍</td>
+</tr>
+</tbody>
+</table> </section>
+<section class=footnotes role=doc-endnotes><h2>References</h2>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p><a href="https://mycourses.aalto.fi/course/view.php?id=34305">My Courses</a>&#160;<a href=#fnref:1 class=footnote-backref title="Return to text." role=doc-backlink><svg transform="rotate(180) translate(0 -1)" aria-hidden="true"><use xlink:href="#caret-down"/></svg></a></p>
+</li>
+<li id=fn:2 role=doc-endnote>
+<p><a href=https://aws.amazon.com/devops/what-is-devops/>What is DevOps?</a>&#160;<a href=#fnref:2 class=footnote-backref title="Return to text." role=doc-backlink><svg transform="rotate(180) translate(0 -1)" aria-hidden="true"><use xlink:href="#caret-down"/></svg></a></p>
+</li>
+</ol>
+</section>
+</article>
+</main>
+</div>
+<footer>
+<p>Generated with <a href=https://gohugo.io>Hugo</a> using the <a href=https://gitlab.com/rmaguiar/hugo-theme-color-your-world>Color Your World</a> theme.</p>
+<section class=req-js>
+<button class=outline-dashed title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="#adjust"/></svg></button><input class=outline-dashed type=color list=presets value=#1dbc91 title="Change accent color." aria-label="Change accent color."><datalist id=presets><option value=#1f676b><option value=#1dbc91><option value=#225670><option value=#dd587c><option value=#902b37><option value=#f3a530><option value=#754e85><option value=#7fc121><option value=#a8314a><option value=#ff7433><option value=#3e6728><option value=#c063bd></datalist>
+</section>
+<noscript>
+<p class=noscript>Unable to execute JavaScript. Some features were disabled.</p>
+</noscript>
+</footer><svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true"><symbol viewBox="0 0 512 512" id="adjust"><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705.0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></symbol><symbol viewBox="0 0 448 512" id="hashtag"><path d="M440.667 182.109l7.143-40c1.313-7.355-4.342-14.109-11.813-14.109h-74.81l14.623-81.891C377.123 38.754 371.468 32 363.997 32h-40.632a12 12 0 00-11.813 9.891L296.175 128H197.54l14.623-81.891C213.477 38.754 207.822 32 200.35 32h-40.632a12 12 0 00-11.813 9.891L132.528 128H53.432a12 12 0 00-11.813 9.891l-7.143 40C33.163 185.246 38.818 192 46.289 192h74.81L98.242 320H19.146a12 12 0 00-11.813 9.891l-7.143 40C-1.123 377.246 4.532 384 12.003 384h74.81L72.19 465.891C70.877 473.246 76.532 480 84.003 480h40.632a12 12 0 0011.813-9.891L151.826 384h98.634l-14.623 81.891C234.523 473.246 240.178 480 247.65 480h40.632a12 12 0 0011.813-9.891L315.472 384h79.096a12 12 0 0011.813-9.891l7.143-40c1.313-7.355-4.342-14.109-11.813-14.109h-74.81l22.857-128h79.096a12 12 0 0011.813-9.891zM261.889 320h-98.634l22.857-128h98.634l-22.857 128z"/></symbol><symbol viewBox="0 0 320 512" id="caret-down"><path d="M31.3 192h257.3c17.8.0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3.0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"/></symbol></svg>
+</body>
+</html>
