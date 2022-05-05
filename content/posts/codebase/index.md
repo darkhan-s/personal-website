@@ -82,14 +82,14 @@ jobs:
 ## My config.toml file (main file for Hugo website configuration)
 
 ```toml
-baseURL = "https://cs-ej4104-2021.github.io/darkhan-s-project"
+baseURL = "https://darkhan-s.github.io/personal-website"
 #baseURL = "/"
 languageCode = "en"
-title = "Introduction to DevOps"
+title = "Saidnassimov Darkhan"
 theme = "color-your-world"
 
 # Used only in the RSS file
-copyright = "Copyright © 2021, Darkhan Saidnassimov; All rights reserved."
+copyright = "Copyright © 2022, Darkhan Saidnassimov; All rights reserved."
 
 enableEmoji = true
 enableInlineShortcodes = true
@@ -291,15 +291,15 @@ paginate = 3
     [languages.en.menu]
 
       [[languages.en.menu.main]]
-        name = "Landing page"
+        name = "About me"
         weight = 1
-        url = "https://cs-ej4104-2021.github.io/darkhan-s-project"
+        url = "https://darkhan-s.github.io/personal-website"
         #url = "/"
 
       [[languages.en.menu.main]]
-        name = "Who"
+        name = "Contacts"
         weight = 2
-        url = "who/"
+        url = "contacts/"
 
       [[languages.en.menu.main]]
         name = "Posts"

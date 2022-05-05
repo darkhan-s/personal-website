@@ -207,7 +207,7 @@ paginate = 3
     [languages.en.menu]
 
       [[languages.en.menu.main]]
-        name = "Landing page"
+        name = "About me"
         weight = 1
         url = "https://darkhan-s.github.io/personal-website"
         #url = "/"

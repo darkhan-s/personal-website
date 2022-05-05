@@ -1,6 +1,6 @@
 # Personal website based on Hugo framework and built with Github actions
 
-This repository is a modified version of the project that has been created for the Fall 2021 edition of course [CS-EJ4104 Introduction to Devops](https://sisu.aalto.fi/student/courseunit/aalto-OPINKOHD-1143602494-20210801/brochure). For additional information about the project, visit the [related MyCourses page](https://mycourses.aalto.fi/course/view.php?id=34305&section=3).
+This repository is a modified version of the final assignment that has been created for the Fall 2021 edition of course [CS-EJ4104 Introduction to Devops](https://sisu.aalto.fi/student/courseunit/aalto-OPINKOHD-1143602494-20210801/brochure). For additional information about the project, visit the [related MyCourses page](https://mycourses.aalto.fi/course/view.php?id=34305&section=3).
 
 The goal of the project was to create a personal website. Instead of using the built-in website generator in GitHub Pages, we had to use a third-party tool: Hugo, a framework for building static websites that takes Markdown documents as input and produces HTML files as output. We also had to configure a continuous delivery pipeline through GitHub Actions to trigger a build and (if that is successful) publish the site on GitHub Pages. The workflow file implemented can be found at [.github/workflows/deploy-worflow.yml](.github/workflows/deploy-worflow.yml)
 
